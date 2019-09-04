@@ -26,10 +26,10 @@ Request interaction description
 
 ### Market api
 
-Obtain ExNow market data
+Obtain MLC market data
 
 
-#### GET  public/v1/markets    Obtain ExNow trading pair list
+#### GET  public/v1/markets    Obtain MLC trading pair list
 
 URL `https://api.mlgo.co/public/v1/markets`    
 
@@ -64,7 +64,7 @@ data:Trading pair
 ```
 
 
-#### GET public/v1/ticker   Obtain ExNow single market real-time quotes
+#### GET public/v1/ticker   Obtain MLC single market real-time quotes
 
 URL `https://api.mlgo.co/public/v1/ticker`    
 
@@ -104,7 +104,7 @@ Request parameters
 | :-----    | :-----   | :-----    | :-----   |
 |market|String|YES|eth_btc|
 
-#### Get /public/v1/depth  Obtain ExNow single market depth
+#### Get /public/v1/depth  Obtain MLC single market depth
 
 URL `https://api.mlgo.co/public/v1/depth`    
 
@@ -147,7 +147,7 @@ Request parameters
 |market|String|YES|eth_btc|
 
 
-#### Get /public/v1/trades    Obtain ExNow order history
+#### Get /public/v1/trades    Obtain MLC order history
 
 URL `https://api.mlgo.co/public/v1/trades`    
 
@@ -194,7 +194,7 @@ Request parameters
 |market|String|YES|eth_btc|
 |limit|int|NO|Get the number of bars (between 1-100)|
 
-#### Get /public/v1/kline   Obtain ExNow K line candle stick chart
+#### Get /public/v1/kline   Obtain MLC K line candle stick chart
 
 URL `https://api.mlgo.co/public/v1/kline`    
 
@@ -241,9 +241,9 @@ size: Size
 
 ### Contract transaction API
 
-Used for exnow to quickly trade and query assets
+Used for MLC to quickly trade and query assets
 
-####1. POST /v1/balance     Gets the exnow account asset information
+####1. POST /v1/balance     Gets the MLC account asset information
 
 URL `https://api.mlgo.co/private/v1/balance` 
 
