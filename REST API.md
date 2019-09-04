@@ -25,9 +25,9 @@ REST访问的根URL：`https://api.mlgo.co/`
 
 ### 行情 API 
 
-获取Exnow行情数据  
+获取MLC行情数据  
 
-#### GET  public/v1/markets    获取Exnow交易对列表
+#### GET  public/v1/markets    获取MLC交易对列表
 
 URL `https://api.mlgo.co/public/v1/markets`	
 
