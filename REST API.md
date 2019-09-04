@@ -62,7 +62,7 @@ data:交易对
 ```
 
 
-#### GET public/v1/ticker   获取Exnow单一市场实时行情
+#### GET public/v1/ticker   获取MLC单一市场实时行情
 
 URL `https://api.mlgo.co/public/v1/ticker`	
 
@@ -102,7 +102,7 @@ open:开
 | :-----    | :-----   | :-----    | :-----   |
 |market|String|是|eth_btc|
 
-#### Get /public/v1/depth  获取Exnow单市场深度
+#### Get /public/v1/depth  获取MLC单市场深度
 
 URL `https://api.mlgo.co/public/v1/depth`	
 
@@ -145,7 +145,7 @@ bids：买单
 |market|String|是|eth_btc|
 
 
-#### Get /public/v1/trades   获取Exnow历史成交
+#### Get /public/v1/trades   获取MLC历史成交
 
 URL `https://api.mlgo.co/public/v1/trades`	
 
@@ -192,7 +192,7 @@ price：价格
 |market|String|是|eth_btc|
 |limit|int|否|获取条数（1-100之间）|
 
-#### Get /public/v1/kline   获取Exnow K线蜡烛图
+#### Get /public/v1/kline   获取MLC K线蜡烛图
 
 URL `https://api.mlgo.co/public/v1/kline`	
 
@@ -239,9 +239,9 @@ size:条数
 
 ### 交易 API 
 
-用于exnow快速进行交易、查询资产
+用于MLC快速进行交易、查询资产
 
-####1. POST /v1/balance  获取exnow账户资产信息
+####1. POST /v1/balance  获取MLC账户资产信息
 
 URL `https://api.mlgo.co/private/v1/balance` 
 
