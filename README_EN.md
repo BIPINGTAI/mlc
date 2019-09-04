@@ -7,4 +7,4 @@
 #### [API error code](https://github.com/BIPINGTAI/mlc/blob/master/API%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81.md)
 
 ***
-#### 前往查看[中文文档](https://github.com/ExnowSupport/ExNow-API/blob/master/README.md)
+#### 前往查看[中文文档](https://github.com/BIPINGTAI/mlc/blob/master/README.md)
